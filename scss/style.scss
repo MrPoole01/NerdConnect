@@ -1,0 +1,29 @@
+@import 'config';
+@import 'navbar';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', 'san-serif';
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: $primaryColor;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
