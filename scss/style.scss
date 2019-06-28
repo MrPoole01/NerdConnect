@@ -1,6 +1,7 @@
 @import 'config';
-@import 'navbar';
 @import 'utilities';
+@import 'navbar';
+@import 'landing';
 
 * {
   box-sizing: border-box;
@@ -27,23 +28,4 @@ ul {
 
 img {
   width: 100%;
-}
-
-//Landing
-.landing {
-  position: relative;
-  background: url('../img/nerd_bkgd.jpg') no-repeat center center/cover;
-  height: 100vh;
-
-  &-inner {
-    color: #fff;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
 }
