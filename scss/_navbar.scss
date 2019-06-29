@@ -22,7 +22,7 @@
 
     &:hover {
       color: $primaryColor;
-      -o-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out;
       transition: 0.3s;
     }
   }
