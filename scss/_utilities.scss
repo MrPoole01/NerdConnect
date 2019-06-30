@@ -1,3 +1,13 @@
+// Contianer
+.container {
+  max-width: $maxWidth;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
 // Text Styles
 .x-large {
   font-size: 4rem;
@@ -12,6 +22,10 @@
 .lead {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.text-primary {
+  color: $primaryColor;
 }
 
 // Backgrounds
@@ -78,6 +92,28 @@
   &:hover {
     background: lighten($darkColor, 20%);
     color: #fff;
+  }
+}
+
+// Alerts
+.alert {
+  padding: 0.8rem;
+  margin: 1rem;
+  opacity: 0.9;
+  background: $lightColor;
+  color: #333;
+
+  &.alert-primary {
+    @include setBackground($primaryColor);
+  }
+  &.alert-dark {
+    @include setBackground($darkColor);
+  }
+  &.alert-success {
+    @include setBackground($successColor);
+  }
+  &.alert-danger {
+    @include setBackground($dangerColor);
   }
 }
 
