@@ -28,6 +28,10 @@
   color: $primaryColor;
 }
 
+.round-img {
+  border-radius: 50%;
+}
+
 // Backgrounds
 .bg {
   &-primary {
