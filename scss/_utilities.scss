@@ -127,6 +127,32 @@
   }
 }
 
+// Badges
+.badge {
+  font-size: 0.8rem;
+  padding: 0.1rem;
+  text-align: center;
+  margin: 0.3rem;
+  background: $lightColor;
+  color: #333;
+
+  &.badge-primary {
+    @include setBackground($primaryColor);
+  }
+
+  &.badge-dark {
+    @include setBackground($darkColor);
+  }
+
+  &.badge-success {
+    @include setBackground($successColor);
+  }
+
+  &.badge-danger {
+    @include setBackground($dangerColor);
+  }
+}
+
 .dark-overlay {
   height: 100%;
   width: 100%;
